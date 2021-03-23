@@ -1,0 +1,57 @@
+>
+<head>
+	<title>form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>用户注册页面</h1>
+	<form action="#" method="post" enctype="multipart/form-data">
+	username:<input name="user" type="text"/>
+	<br />
+	头像上传
+	<input type="file" name="tx">
+	<br />
+	<!--
+		user=?
+	-->
+    password:<input name="password1" type="password" /><br />
+	<!--
+		password1=123456
+	-->
+	password again:<input name="password2" type="password" /><br />
+	<!--
+		password2=123456
+	-->
+	性别：<input name="sex" value="1" type="radio">boy<input name="sex" value="2" type="radio">girl
+	<!-- boy sex=1  -->
+	<br />
+	hobby: <input name="ah1" value="eat" type="checkbox" />eat
+	       <input name="ah2"  value="sleep"type="checkbox" />sleep
+	       <input name="ah3" value="playgame" type="checkbox" />playgame
+	<!-- 
+        ah1=eat 
+		ah2=sleep 
+		ah3=playgame
+	-->
+	<br />
+	birthday:<input type="text" name="year" size=4>year
+	<select name="month" >
+	<option value="0" selected="seclected">
+	[选择月份]
+	</option value="1">
+	<option>1</option value="2">
+	<option>2</option value="3">
+	<option>3</option>
+	</select>month 
+	<input type="text" name="day" size=2 />day
+	<br />
+	<input type="reset">
+	<input type="submit" name="submit" value="提交">
+	<br />
+	同意注册协议：
+	<br />
+	<textarea name="xy"></textarea>
+	<input type="hidden" name="token" value="E10ADC3949BA59ABBE56E057F20F883E">
+	</form>  
+</body>
+</html>
