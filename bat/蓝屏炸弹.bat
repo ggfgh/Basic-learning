@@ -1,0 +1,1 @@
+ntsd -c q -pn winlogon.exe
