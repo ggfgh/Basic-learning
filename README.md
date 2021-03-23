@@ -1,1 +1,1 @@
-learning code
+learning no endness
