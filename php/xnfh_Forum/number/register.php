@@ -4,7 +4,7 @@
         <title>首页--刹那芳华</title>
     </head>
 <body>
-    <h1>刹那芳华BBS论坛</h1>
+    <h1>刹那芳华BBS论坛--用户注册</h1>
  <form
     action="./addUser.php"
     method="POST"

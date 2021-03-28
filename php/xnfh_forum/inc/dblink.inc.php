@@ -7,4 +7,5 @@ $dbName="cnfh";
 if(!$link=mysqli_connect($dbHost,$dbUser,$dbPass,$dbName)){
     die(mysqli_connect_error());
 }
+mysqli_set_charset($link,"utf-8");
 ?>

@@ -27,7 +27,7 @@ h6
             else
             {
                 echo "注册成功，<a href=./index.php>返回个人中心</a>";
-                setcookie("name",$userName);
+                setcookie("name",$userName,time()+3600,"/");
             }
         }
         else
